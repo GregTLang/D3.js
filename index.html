@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2>Correlations Between Obesity and Poverty in the US</h2>
+          <p>The points in the graph are plotted loosely together on an overall upward trend. This suggests that poverty and obesity in the US have a moderate positive correlation. This correlation becomes somewhat more salient after excluding outlier states of Missouri, New Mexico, Washington D.C., Colorado, and Hawaii (MS, NM, DC, CO, and HI) but remains loose nonetheless.</p>
+          <p>The state with the highest poverty rate is Missouri (21%), while that with the lowest poverty rate is New Hampshire (9%). New Mexico and Louisiana are the second and third poorest states in the US, respectively. Interestingly, even though Missouri and New Mexico's poverty rates are closely equal, their obesity rates vary by 7 whole percentage points. Similarly, California and Oklahoma share the same poverty rate (~16%) but widely differ in obesity rate: California's 24% obese while Oklahoma is 32%—a difference of 8 percentage points. </p>
+          <p>The most obese state in the union is Arkansas (35%), while the least obese state is Colorado (21%). West Virginia and Missouri join Arkansas as the fattest states, while Hawaii and Washington, D.C. have the slimmest populations after with Colorado. Despite Colorado being the state with the lowest obesity rate, however, it's still somewhat shocking that one fifth of its population counts as being excessively overweight.</p>
+          <p>It’s also interesting to see that some states have identical obesity rates but vary greatly in their poverty rates. This is the case for New Hampshire and Nevada, which have the same obesity rate (28%) but a poverty rate of 9% and 15%, respectively.</p>
+          <p>The states with the highest rates of both poverty <i>and</i> obesity are located in the American South: Missouri, Louisiana, Arkansas, Alabama, West Virginia, and Kentucky. This combination could likely be a consequence of the region's cuisine, known for being high in fat, paired with the region’s struggles as its post-agricultural economies have done little to innovate, while also maintaining low education levels by national standards.</p>
+          <p>In conclusion, this data allows us to conclude that obesity in the US affects wealthy populations as well poor ones, having more to do with habits of overeating and the overall prevalence of poor quality food, rather than just access to bad quality food in impoverished areas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
